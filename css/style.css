@@ -1,0 +1,513 @@
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url('../police/brandon-grotesque-light.otf'); 
+    }
+
+@font-face {
+    font-family: Brandon Grotesque Bold;
+    src: url('../police/brandon-grotesque-black.otf'); 
+}
+
+
+
+.body{
+    color: white;
+}
+a{
+    color: white
+}
+#menu{
+
+height: 29px;
+color : white;
+}
+#pp{
+    font-family: Cubano;
+font-size: 25px;
+font-weight: 400;
+line-height: 18.88px;
+text-transform: uppercase;
+/* Text style for "Escape" */
+color: #ffffff;
+letter-spacing: 2.5px;
+}
+#ppp{
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 41px;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+#banner{
+
+height: 646px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+#text{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+font-weight: 300;
+letter-spacing: -0.8px;
+}
+#text2{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: "Brandon Grotesque";
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1.65px;
+}
+#but{
+    margin-top: 50px;
+    /*width: 103px;
+    height: 18px;*/
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#er{
+    font-family: "Brandon Grotesque";
+font-size: 60px;
+font-weight: 400;
+line-height: 75px;
+}
+
+#er strong{
+    font-family: "Brandon Grotesque Bold";
+font-size: 60px;
+
+line-height: 75px;
+}
+
+#azer{
+    color: #777777;
+font-family: "Brandon Grotesque";
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+/* Text style for "P, roin ia" */
+letter-spacing: -0.45px;
+}
+
+#qsdf{
+    color: #222222;
+font-family: "Brandon Grotesque";
+font-size: 22px;
+font-weight: 500;
+/* Text style for "B, randing" */
+letter-spacing: -0.55px;
+}
+
+#qsdfs{
+    color: white;
+font-family: "Brandon Grotesque";
+font-size: 18px;
+font-weight: 500;
+/* Text style for "B, randing" */
+letter-spacing: -0.55px;
+}
+
+#az{
+    color: #777777;
+font-family: "Brandon Grotesque";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "P, roin ia" */
+letter-spacing: -0.45px;
+}
+
+#butcol {
+    align-content: center;
+}
+#butt{
+    font-family: "Brandon Grotesque";
+    border: white 1px solid;
+    width: 240px;
+height: 65px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+#navigation li {
+    display: inline;
+    color: white;
+  }
+
+#dev{
+    background-color: white;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#dev2{
+    background-color: #fafafa;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 444px;
+}
+
+#dev3{
+    background-color: #fafafa;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.marg{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#margs{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+#margss{
+    margin-bottom: 30px;
+    margin-top: 70px;
+    color: #B1B1B1;
+}
+#margsss{
+    margin-bottom: 10px;
+    margin-top: 190px;
+    color: white;
+}
+
+#margsa{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+#dev3 .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#colorr{
+    color: #777777;
+}
+
+#imagess{
+    border-radius: 50%; 
+    border: 5px white solid;
+}
+
+#team{
+    color: white;
+    height: 900px;
+    background-color: #111111;
+}
+
+#hello{
+    color: white;
+    height: 640px;
+    background-color: #7690c5;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .containner{
+    margin-left: 100px;
+  }
+
+.head{
+    height: 843px;
+    background-image: url(../img/tet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navigation{
+    margin-left: 1100px;
+    font-size: 20px
+}
+.textG{
+    font-size: 66pt;
+    color: #ffffff;
+    margin-left: 550px;
+    font-family: "Brandon Grotesque";
+    letter-spacing: -1.65px;
+}
+
+.title{
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 32px; 
+    font-weight: 300;
+    letter-spacing: -0.8px;
+    margin-left: 650px;
+    margin-top: 200px;
+}
+.s1{
+    height: 430px;
+    color: black;
+ margin-left: 500px;
+    background-color: #ffffff;
+}
+
+
+.s2{
+    height: 430px;
+    background-color: #fafafa;
+}
+
+.but{
+    margin-left: 750px;
+    background-color: #ffffff00;
+    color: white;
+    height: 65px;
+    width: 240px;
+    border: white 3px solid;    
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.para1{
+width: 555px;
+height: 148px;
+color: #777777;
+font-family: "Brandon Grotesque";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.45px;
+}
+
+.web{
+    font-family: "Brandon Grotesque Bold";
+font-weight: 700;
+letter-spacing: -1.5px;
+color: black;
+}
+
+.s3{
+    height: 810px;
+
+    background-color: #fafafa;
+}
+
+.move{
+    margin-left: 500px;
+}
+
+.pack{
+    display: flex;
+    flex-direction: row;
+}
+
+.flox{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.titlee{
+    color: #ffffff;
+
+width: 95px;
+height: 19px;
+color: #ffffff;
+color: #464646;
+font-family: Cubano;
+font-size: 25px;
+font-weight: 400;
+line-height: 18.88px;
+text-transform: uppercase;
+
+color: #ffffff;
+letter-spacing: 2.5px;
+}
+
+div.box {
+    width: 663px;
+height: 174px;
+background-color: white;
+border: 1px solid #e8e8e8;
+    position:relative;					
+    top:50px;
+    left:50px;
+    border-radius:7px;
+}
+
+.box:before {
+    position:absolute;					
+    left:-20px; 						
+                                        
+    top:25px;
+    content:'';							
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:1; 							
+}
+
+.box:after{
+    position:absolute; 					
+    left:-18px; 						
+      top:25px;
+    content:''; 						
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:2; 							
+}
+
+.box:before {
+    border-right-color:#e8e8e8;			
+                                           
+}  
+
+.box:after {
+    border-right-color:white;			
+                                        
+} 
+div.box2 {
+    width: 663px;
+height: 174px;
+background-color: white;
+border: 1px solid #e8e8e8;
+    position:relative;					
+    top:50px;
+    left:50px;
+    border-radius:7px;
+    transform: rotate(180deg);
+}
+
+.box2:before {
+    position:absolute;					
+    left:-20px; 						
+                                        
+    top:25px;
+    content:'';							
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:1; 							
+}
+
+.box2:after{
+    position:absolute; 					
+    left:-18px; 						
+      top:25px;
+    content:''; 						
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:2; 							
+}
+
+.box2:before {
+    border-right-color:#e8e8e8;			
+                                           
+}  
+
+.box2:after {
+    border-right-color:white;			
+                                        
+} 									
+
+.tra{
+    transform: rotate(180deg);
+}
+
+.coro{
+color: #7690c5;
+font-family: "Brandon Grotesque";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "- Jamie Ri" */
+letter-spacing: -0.5px;
+}
