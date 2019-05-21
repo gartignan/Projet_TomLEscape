@@ -8,10 +8,15 @@
     src: url('../police/brandon-grotesque-black.otf'); 
 }
 
-
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .body{
     color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 a{
     color: white
@@ -100,6 +105,12 @@ font-size: 60px;
 font-weight: 400;
 line-height: 75px;
 }
+#ere{
+    font-family: "Brandon Grotesque";
+font-size: 60px;
+font-weight: 400;
+line-height: 75px;
+}
 
 #er strong{
     font-family: "Brandon Grotesque Bold";
@@ -152,11 +163,15 @@ letter-spacing: -0.45px;
 #butt{
     font-family: "Brandon Grotesque";
     border: white 1px solid;
-    width: 240px;
+    width: 1px;
 height: 65px;
     padding-top: 15px;
     text-align: center;
 
+}
+
+#butt:hover {
+    cursor: pointer;
 }
 #navigation li {
     display: inline;
@@ -200,11 +215,13 @@ height: 65px;
 .marg{
     margin-bottom: 50px;
     margin-top: 50px;
+    
 }
 
 #margs{
     margin-bottom: 50px;
     margin-top: 100px;
+    
 }
 #margss{
     margin-bottom: 30px;
@@ -215,6 +232,12 @@ height: 65px;
     margin-bottom: 10px;
     margin-top: 190px;
     color: white;
+}
+
+#margssss{
+    margin-bottom: 50px;
+    margin-top: 100px;
+    background-color: #7690C5;
 }
 
 #margsa{
@@ -248,6 +271,11 @@ height: 65px;
     color: white;
     height: 640px;
     background-color: #7690c5;
+
+}
+
+.up{
+    margin-top: 100px;
 }
 
 /* Container holding the image and the text */
